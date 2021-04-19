@@ -20,6 +20,7 @@ h1 {
     border-style:solid;
     border-color:hsl(0, 100, 0);
     border-radius:0.1in;
+    border-width: 5px;
     padding: 10pt 10px 10pt 10px;
     margin-bottom: 25px;
 }
@@ -52,4 +53,38 @@ hr ~ h3{
 
 video.div3 {
     background-color:blue;
+}
+
+.container1 {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:row;
+}
+
+.container2 {
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    justify-content:left;
+    margin:auto;
+}
+
+a[href^="https"]{
+    color: green;
+}
+
+button:hover {
+    color: blue;
+}
+
+button:active {
+    color: red;
+}
+
+@media all and (max-width: 500px) {
+    body {
+        background-color: lightgreen 
+    }
 }
