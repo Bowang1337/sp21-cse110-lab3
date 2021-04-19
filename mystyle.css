@@ -1,0 +1,28 @@
+/* This is my css stylesheet- there are many like it, but this is mine */
+* {
+    margin: 0px 10px 0px 10;
+}
+
+body {
+    background-color: lightblue;
+}
+  
+h1 {
+    color:rgb(0, 0, 128);
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 5ex;
+}
+
+.div1 {
+    background-color: #FFFF;
+    border-style:solid;
+    border-color:hsl(0, 100, 0);
+    border-radius:0.1in;
+    padding: 10pt 10px 10pt 10px
+}
+
+#note1 {
+    width: 35em;
+}
