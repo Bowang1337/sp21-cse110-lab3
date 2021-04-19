@@ -15,7 +15,7 @@ h1 {
     margin-bottom: 5ex;
 }
 
-.div1, .div2 {
+.div1, .div2, .div3 {
     background-color: #FFFF;
     border-style:solid;
     border-color:hsl(0, 100, 0);
@@ -38,4 +38,18 @@ div h2 {
 
 p > em {
     color: purple;
+}
+
+video + p {
+    font-weight: bold;
+    position: sticky;
+}
+
+hr ~ h3{
+    color:red;
+    display:inline;
+}
+
+video.div3 {
+    background-color:blue;
 }
